@@ -3,7 +3,8 @@
     const { browserHistory, Router, Route, IndexRoute, Switch, Link } = ReactRouterDOM;
     //const { button, Tab, Tabs } = ReactBootstrap;
     const { Select } = reactDropdownSelect;
-    const { Card } = ReactCardFlip;
+    //const { Card } = ReactCardFlip;
+    
 
     const render = ReactDOM.render;
     const html = htm.bind(createElement);
