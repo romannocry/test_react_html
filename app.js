@@ -213,7 +213,13 @@
       const [count, setCount] = useState(0);
       console.log("loading counter");
       return html`
-   
+      <div>
+            <div>
+          <button onClick=${() => setCount(count + 1)}>
+            Clicked ${count} times
+          </button>
+        </div>
+        </div>
       `;
     }
 
